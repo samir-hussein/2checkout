@@ -1,0 +1,18 @@
+{
+    "name": "samir-hussein/2checkout",
+    "description": "2checkout payment gateway",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Samir Ebrahim Hussein",
+        "email": "samirhussein274@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TwoCheckOut\\": "2checkout/laravel",
+            "TwoCheckout\\": "2checkout"
+        }
+    },
+    "require": {}
+}
