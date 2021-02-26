@@ -358,7 +358,7 @@ php artisan vendor:publish --provider="TwoCheckOut\TwoCheckoutServiceProvider"
             // Setup token request arguments
             var args = {
                 sellerId: "{{config('2checkout.merchantCode')}}",
-                publishableKey: "{{config('2checkout.publicKey')}}",
+                publishableKey: "{{config('2checkout.publishableKey')}}",
                 ccNo: $("#ccNo").val(),
                 cvv: $("#cvv").val(),
                 expMonth: $("#expMonth").val(),
