@@ -6,7 +6,7 @@ return [
 
     'privateKey' => env('TwoCheckout_PrivateKey'),
 
-    'publicKey' => env('TwoCheckout_PublicKey'),
+    'publishableKey' => env('TwoCheckout_PublishableKey'),
 
     'demo' => env('TwoCheckout_Demo'),
 ];

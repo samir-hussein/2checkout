@@ -4,7 +4,7 @@ namespace TwoCheckOut\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class TwoCheckout extends Facade
+class TwoCheckOut extends Facade
 {
     /**
      * Get the registered name of the component.
